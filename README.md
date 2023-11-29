@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Car Showcase Website
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This car showcase website is a dynamic platform for exploring an extensive collection of rental cars. Built with React, Next.js, TypeScript, two APIs, and adorned with TailwindCSS styling, the website offers a captivating glimpse into the diverse range of vehicles available for rent. Designed to engage users, it invites exploration and discovery of the unique features and options provided by the car rental service.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cars API**: An API provided by RapidAPI that provides car details such as make, model, fuel type, and more.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Imagin Car Photos API**: An API provided by Imagin Studio that allows access to photos of various makes and models of cars from varying perspectives.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **TypeScript**: A superset of JavaScript that adds static typing to the language, enhancing code quality and development experience.
 
-## Learn More
+- **React**: A popular JavaScript library for building user interfaces, used to create dynamic and responsive components for the landing page.
 
-To learn more about Next.js, take a look at the following resources:
+- **Next**: A React-based web framework that enables efficient server-side rendering, easy navigation, and seamless development of modern web applications.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **TailwindCSS**: A utility-first CSS framework used for styling, ensuring a clean and modern design for the landing page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Vercel**: A cloud platform for static sites and serverless functions, used for deploying and hosting the landing page.
